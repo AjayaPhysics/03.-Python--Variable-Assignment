@@ -1,0 +1,56 @@
+# Chapter: Variable Assignment
+
+# Explanation:
+# Variable assignment is one of the fundamental concepts in Python.
+# A variable is like a container that holds data. You can assign values to variables
+# using the assignment operator `=`.
+
+# Key Points:
+# - Variables can store different types of data, such as numbers, strings, and booleans.
+# - Variable names should be descriptive and follow naming conventions.
+# - Variable names are case-sensitive in Python.
+# - Python uses dynamic typing, so a variable's type can change during execution.
+
+# Example 1: Assigning a value to a variable
+x = 10  # Assigning an integer value
+y = 3.14  # Assigning a float value
+name = "Ajaya"  # Assigning a string value
+is_teacher = True  # Assigning a boolean value
+
+# Printing the variables to see their values
+def print_variables():
+    print("Value of x:", x)
+    print("Value of y:", y)
+    print("Value of name:", name)
+    print("Value of is_teacher:", is_teacher)
+
+print_variables()
+
+# Example 2: Reassigning values
+x = 20  # Changing the value of x
+name = "Python"  # Changing the value of name
+print("After reassignment:")
+print_variables()
+
+# Example 3: Multiple assignments
+a, b, c = 5, "Hello", False  # Assigning multiple values in a single line
+print("Values after multiple assignments:", a, b, c)
+
+# Example 4: Assigning the same value to multiple variables
+m = n = p = 42  # All three variables hold the same value
+print("Values of m, n, p:", m, n, p)
+
+# Best Practices:
+# 1. Use meaningful variable names.
+#    Good: `age = 25` | Bad: `a = 25`
+# 2. Avoid using reserved keywords (e.g., `for`, `if`, `while`) as variable names.
+# 3. Stick to snake_case for variable names (e.g., `user_name`, `is_active`).
+
+# Example 5: Checking the type of a variable
+print("Type of x:", type(x))
+print("Type of y:", type(y))
+print("Type of name:", type(name))
+print("Type of is_teacher:", type(is_teacher))
+
+# Summary:
+# Variable assignment in Python is simple and flexible. With practice, you can leverage Python's dynamic typing to write efficient code.
